@@ -1,0 +1,36 @@
+<!-- 
+
+   <select>
+
+    - Controle que fornece um menu de opções
+
+    <option>
+
+    - Contém as opções a serem selecionadas
+    - Atributos necessários
+        - value
+
+    Atributos Únicos
+    - multiple
+        Habilita múltiplas opções
+    - size
+        Quando opções visíveis?
+
+    
+-->
+<label>Please choose one or more pets:
+    <select name="pets" multiple size="4">
+        <optgroup label="4-legged pets">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster" disabeled>hamster</option>
+        </optgroup>
+        <optgroup label="Flying pets">
+            <option value="parrot">Parrot</option>
+            <option value="macaw">Macaw</option>
+            <option value="albatross">Albatross</option>
+        </optgroup>
+
+    </select>
+</label>
+<!-- o back-end vai receber essas informações como: pets=dog,cat,parrot -->

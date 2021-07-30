@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vw;
+    display: flex;
+}
+footer{
+    margin-top:auto;
+    color:white;
+    background-color: gray;
+    height:8rem;
+    flex:1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

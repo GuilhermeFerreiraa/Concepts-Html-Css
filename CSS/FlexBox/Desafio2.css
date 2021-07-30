@@ -1,0 +1,17 @@
+
+.container{
+    display:flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    
+}
+aside, main{
+    border: 2px solid;
+    height:95vw;
+}
+aside{
+    flex-basis: 25%;
+}
+main{
+    flex:1;
+}
